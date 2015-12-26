@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+    <head>
+        <title>autch.co</title>
+
+        <meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css">
+        <link rel="stylesheet" type="text/css" href="css/audio-twitch.css">
+
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+
+        <!-- script type="text/javascript" src="js/gen/dev/goog/base.js"></script -->
+    </head>
+
+    <body>
+        <div class="container main">
+            <div class="section">
+                <h2><a href="#/"><img style="height: 50px;" src="img/logo.png"></img></a></h2>
+
+                <div class="row layout-section layout-section-root">
+                    <div style="display: none;" class="layout-section-inner"></div>
+
+                    <a href="#/games"><div class="col s6 block-button">Games</div></a>
+                    <a href="#/streams"><div class="col s6 block-button">Streams</div></a>
+                </div>
+
+                <div class="row layout-section layout-section-games">
+                    <div class="col s12">
+                        <div class="row"></div>
+                        <div class="row">
+                            <div class="col s12 layout-section-inner"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row layout-section layout-section-streams">
+                    <div class="col s12">
+                        <div class="row"></div>
+                        <div class="row">
+                            <div class="col s12 layout-section-inner"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row layout-section layout-section-stream">
+                    <div class="col s12">
+                        <div class="row"></div>
+                        <div class="row">
+                            <div class="col s12 layout-section-inner stream-one"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="page-footer">
+            <div class="footer-copyright">
+                <div class="container">
+                    © 2015 autch.co
+                    <a class="grey-text text-lighten-4 right" href="mailto:autchco@gmail.com">contact</a>
+                </div>
+            </div>
+        </footer>
+    </body>
+
+    <audio id="player" style="display: none;" preload="none">
+      <source id="player-source">
+    </audio>
+
+    <script type="text/javascript" src="js/gen/prod/autch-main.js"></script>
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-65261363-1', 'auto');
+        ga('send', 'pageview');
+  </script>
+</html>
